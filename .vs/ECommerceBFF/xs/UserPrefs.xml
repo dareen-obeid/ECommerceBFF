@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{6C22A8E4-CAE8-469E-9D46-0DCB4A15ED28}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECommerceBFF/ServiceClient/OrderServiceClient.cs">
+    <Files>
+      <File FileName="ECommerceBFF/Program.cs" Line="14" Column="1" />
+      <File FileName="ECommerceBFF/ServiceClient/ProductServiceClient.cs" Line="50" Column="1" />
+      <File FileName="ECommerceBFF/DTOs/ProductDto.cs" Line="10" Column="48" />
+      <File FileName="ECommerceBFF/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="ECommerceBFF/appsettings.json" Line="1" Column="1" />
+      <File FileName="ECommerceBFF/Controllers/ProductController.cs" Line="55" Column="1" />
+      <File FileName="ECommerceBFF/ServiceClient/CartServiceClient.cs" Line="56" Column="1" />
+      <File FileName="ECommerceBFF/ServiceClient/OrderServiceClient.cs" Line="8" Column="39" />
+      <File FileName="ECommerceBFF/DTOs/OrderDto.cs" Line="16" Column="6" />
+      <File FileName="ECommerceBFF/DTOs/OrderItemDto.cs" Line="14" Column="6" />
+      <File FileName="ECommerceBFF/DTOs/OrderStatusDto.cs" Line="8" Column="6" />
+      <File FileName="ECommerceBFF/DTOs/CartDto.cs" Line="12" Column="6" />
+      <File FileName="ECommerceBFF/DTOs/CartItemDto.cs" Line="14" Column="6" />
+      <File FileName="ECommerceBFF/Controllers/CartController.cs" Line="62" Column="1" />
+      <File FileName="ECommerceBFF/Controllers/OrderController.cs" Line="55" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECommerceBFF" expanded="True">
+            <Node name="ECommerceBFF">
+              <Node name="Controllers" expanded="True" />
+              <Node name="ServiceClient" expanded="True">
+                <Node name="OrderServiceClient.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ECommerceBFF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
