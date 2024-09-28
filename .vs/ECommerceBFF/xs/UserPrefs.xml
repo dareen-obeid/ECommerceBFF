@@ -1,42 +1,51 @@
 ﻿<Properties StartupConfiguration="{6C22A8E4-CAE8-469E-9D46-0DCB4A15ED28}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECommerceBFF/ServiceClient/OrderServiceClient.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ECommerceBFF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Application FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECommerceBFF/Controllers/AuthenticationController.cs">
     <Files>
-      <File FileName="ECommerceBFF/Program.cs" Line="14" Column="1" />
-      <File FileName="ECommerceBFF/ServiceClient/ProductServiceClient.cs" Line="50" Column="1" />
-      <File FileName="ECommerceBFF/DTOs/ProductDto.cs" Line="10" Column="48" />
-      <File FileName="ECommerceBFF/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="ECommerceBFF/appsettings.json" Line="1" Column="1" />
-      <File FileName="ECommerceBFF/Controllers/ProductController.cs" Line="55" Column="1" />
-      <File FileName="ECommerceBFF/ServiceClient/CartServiceClient.cs" Line="56" Column="1" />
-      <File FileName="ECommerceBFF/ServiceClient/OrderServiceClient.cs" Line="8" Column="39" />
-      <File FileName="ECommerceBFF/DTOs/OrderDto.cs" Line="16" Column="6" />
-      <File FileName="ECommerceBFF/DTOs/OrderItemDto.cs" Line="14" Column="6" />
-      <File FileName="ECommerceBFF/DTOs/OrderStatusDto.cs" Line="8" Column="6" />
-      <File FileName="ECommerceBFF/DTOs/CartDto.cs" Line="12" Column="6" />
-      <File FileName="ECommerceBFF/DTOs/CartItemDto.cs" Line="14" Column="6" />
-      <File FileName="ECommerceBFF/Controllers/CartController.cs" Line="62" Column="1" />
-      <File FileName="ECommerceBFF/Controllers/OrderController.cs" Line="55" Column="1" />
+      <File FileName="ECommerceBFF/Program.cs" Line="35" Column="18" />
+      <File FileName="ECommerceBFF/ServiceClient/ProductServiceClient.cs" Line="64" Column="1" />
+      <File FileName="ECommerceBFF/DTOs/ProductDto.cs" />
+      <File FileName="ECommerceBFF/Properties/launchSettings.json" />
+      <File FileName="ECommerceBFF/appsettings.json" />
+      <File FileName="ECommerceBFF/Controllers/ProductController.cs" Line="58" Column="1" />
+      <File FileName="ECommerceBFF/ServiceClient/CartServiceClient.cs" Line="64" Column="1" />
+      <File FileName="ECommerceBFF/ServiceClient/OrderServiceClient.cs" Line="64" Column="1" />
+      <File FileName="ECommerceBFF/DTOs/OrderDto.cs" />
+      <File FileName="ECommerceBFF/DTOs/OrderItemDto.cs" />
+      <File FileName="ECommerceBFF/DTOs/OrderStatusDto.cs" />
+      <File FileName="ECommerceBFF/DTOs/CartDto.cs" />
+      <File FileName="ECommerceBFF/DTOs/CartItemDto.cs" />
+      <File FileName="ECommerceBFF/Controllers/CartController.cs" Line="58" Column="1" />
+      <File FileName="ECommerceBFF/Controllers/OrderController.cs" Line="58" Column="1" />
+      <File FileName="ECommerceBFF/Middleware/ExceptionHandlingMiddleware.cs" Line="10" Column="6" />
+      <File FileName="ECommerceBFF/Exceptions/NotFoundException.cs" />
+      <File FileName="ECommerceBFF/Exceptions/ValidationException.cs" />
+      <File FileName="ECommerceBFF/DTOs/ErrorResponse.cs" />
+      <File FileName="ECommerceBFF/Exceptions/BadRequestException.cs" />
+      <File FileName="ECommerceBFF/Controllers/AuthenticationController.cs" Line="54" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ECommerceBFF" expanded="True">
             <Node name="ECommerceBFF">
-              <Node name="Controllers" expanded="True" />
-              <Node name="ServiceClient" expanded="True">
-                <Node name="OrderServiceClient.cs" selected="True" />
+              <Node name="Controllers">
+                <Node name="AuthenticationController.cs" selected="True" />
               </Node>
+              <Node name="Middleware" expanded="True" />
+              <Node name="ServiceClient" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ECommerceBFF PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
