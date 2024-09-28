@@ -15,11 +15,21 @@ public class CartServiceClient
     private async Task<T> ProcessResponse<T>(HttpResponseMessage response)
     {
         var content = await response.Content.ReadAsStringAsync();
+
         if (!response.IsSuccessStatusCode)
         {
-            var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(content);
-            throw new ApplicationException($"Service Error: {errorResponse?.Message ?? "No error message provided."}");
+            // Try to deserialize the error response
+            try
+            {
+                var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(content);
+                throw new HttpRequestException($"Service Error: {errorResponse?.Message ?? "Unknown error"}");
+            }
+            catch (JsonException) // Catch JSON errors in case the error format is unexpected
+            {
+                throw new HttpRequestException("An error occurred while processing the response.");
+            }
         }
+
         return JsonConvert.DeserializeObject<T>(content);
     }
 
